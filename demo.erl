@@ -1,8 +1,5 @@
 -module(demo).
--export([double/1]).
--export([times/2]).
--export([fact/1]).
--export([sum/1]).
+-export([double/1, times/2, fact/1, sum/1]).
 
 double([]) ->
 	[];
