@@ -1,6 +1,8 @@
 some very basic erlang examples
 
 usage:
+
+```
 $ erl
 1> c(demo).
 {ok,demo}
@@ -8,3 +10,4 @@ $ erl
 120
 3> q().
 $
+```
