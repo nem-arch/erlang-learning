@@ -1,3 +1,4 @@
+#!/usr/bin/env escript
 % small math console for arbitrary bases
 %
 % main purpose is to calc in arbitrary bases with solution in arb bases
@@ -15,7 +16,6 @@
 % q to quit
 % > q.
 
-#!/usr/bin/env escript
 -export([main/1]).
 
 -mode(native).
