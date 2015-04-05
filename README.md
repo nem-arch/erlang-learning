@@ -1,12 +1,14 @@
 erlang-learning
 ===============
 
-## db.erl, manip.erl, recursion.erl
+## db.erl, manip.erl, recursion.erl, sort.erl
 exercises from cesarini/thompson.
 
 db implements a simple database interface.
 
 manip and recursion implements some basic list operations.
+
+sort implements quicksort and mergesort
 
 ## drones.erl, echo.erl
 some basic process communication
