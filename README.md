@@ -1,20 +1,13 @@
 erlang-learning
 ===============
 
-## demo.erl
-some very basic erlang examples
+## db.erl, manip.erl, recursion.erl
+exercises from cesarini/thompson.
 
-usage:
+db implements a simple database interface.
 
-```
-$ erl
-1> c(demo).
-{ok,demo}
-2> demo:fact(5).
-120
-3> q().
-$
-```
+manip and recursion implements some basic list operations.
+
 ## drones.erl, echo.erl
 some basic process communication
 
@@ -29,9 +22,6 @@ $ erl
 3> q().
 $
 ```
-
-## ftest.erl, fileop.erl
-some basic file io
 
 ## calc.erl
 small math console for arbitrary bases
@@ -49,5 +39,23 @@ o 67
 > A=math:sqrt(2), A*2.
 f 2.828427
 > q.
+$
+```
+
+## ftest.erl, fileop.erl
+some basic file io
+
+## demo.erl
+some very basic erlang examples
+
+usage:
+
+```
+$ erl
+1> c(demo).
+{ok,demo}
+2> demo:fact(5).
+120
+3> q().
 $
 ```
